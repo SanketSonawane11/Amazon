@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <style>
+        *
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        @keyframes load {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+        .load
+        {
+            position: fixed;
+            top: 46%;
+            left: 45%;
+            animation: load 1.5s ease-in-out infinite;
+        }
+
+    </style>
+</head>  
+<body>
+    <div class="load">
+        <img src="./Media/Loader.png" alt="Loading"><br>
+       
+    </div>
+</body>
+</html>
