@@ -4,7 +4,7 @@
 *
 {
     font-family: 'Baloo Bhai 2', cursive;
-    /*border: border-box;*/
+    border: border-box;
     margin: 0;
     padding: 0;
     border-style: none;
@@ -22,14 +22,14 @@
 
 .border:hover
 {
-    border: 2px solid white;
+    border:  0.13020833333333334vw solid white;
     border-radius: 3px;
 }
 
 .navbar
 {
-    height: 60px;
-    width: 100%;
+    height: 3.90625vw;
+    width: 100vw;
     background-color: #181c24;
     color: white;
     display: flex;
@@ -40,39 +40,39 @@
 .nav-logo
 {
     height: auto;
-    width: 113px;
+    width: 7.356770833333333vw;
     background-image: url(./Media/amazon_logo\ \(1\).png);
     background-size: cover; 
 }
 
 .nav-address
 {
-    height: 50px;
-    width: 88.69px;
-    padding-left: 5px;
-    margin: 2px;
+    height: 3.2552083333333335vw;
+    width: 5.774088541666667vw;
+    padding-left:  0.3255208333333333vw;
+    margin: 0.13020833333333334vw;
 }
 
 .location-icon
 {
-    height: 18px;
-    width: 15px;
+    height: 2.256020942408377vh;
+    width: 1.171875vw;
     display: flex;
     align-items: center;
 }
  
 #dt
 {
-    height: 18px;
-    font-size: 0.85rem;
+    height: 1.171875vw;
+    font-size: 1vw;
     color: #cccccc;
     margin-left: 16.8px;
     padding-top: 5px;
 }
 #india
 {
-    height: 18px;
-    font-size: 1rem;
+    height: 1.171875vw;
+    font-size: 1.2vw;
     font-weight: bold;
     color: white;
     margin-left: 5px;
@@ -83,8 +83,8 @@
 
 .nav-search
 {
-    height: 40px;
-    width: 663px;
+    height: 2.6041666666666665vw;
+    width: 43.1640625vw;
     margin: 8px;
     border-radius: 10px;
     display: flex;
@@ -94,7 +94,7 @@
 
 .msearch
 {
-    height: 40px;
+    height: 2.6041666666666665vw;
     display: flex;
     align-items: center;
     background-color: #ffbc6c;
@@ -103,8 +103,8 @@
 
 .option
 {
-    height: 40px;
-    width: 135px;
+    height: 2.6041666666666665vw;
+    width: 8.7890625vw;
     border-right: 2px #cccccc solid;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -120,12 +120,8 @@
     background-color: #f3f3f3;
     font-size: 1.2vw;
     font-weight: 500;
-    height: 40px;
-    width: 475px;
-}
-.nav-search:hover
-{
-    border: 3px solid #fe9901;
+    height: 2.6041666666666665vw;
+    width: 30.924479166666668vw;
 }
 
 .search-icon
@@ -133,8 +129,8 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 45px;
+    height: 2.6041666666666665vw;
+    width: 2.9296875vw;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #181c24;
@@ -144,8 +140,8 @@
 
 .nav-region
 {
-    height: 50px;
-    width: 75px;
+    height: 3.2552083333333335vw;
+    width: 4.8828125vw;
     margin: 5px;
     display: flex;
     align-items: center;
@@ -161,7 +157,7 @@
 
 .region-flag
 {
-    height: 18px;
+    height: 1.171875vw;
     width: auto;
     border-radius: 2px;
     margin-left: 10px;
@@ -200,12 +196,12 @@
 span
 {
     font-weight: lighter;
-    font-size: 0.8rem;
+    font-size: 1vw;
 }
 
 .dn
 {
-    font-size: 1rem;
+    font-size: 1.2vw;
     font-weight: 700;
 }
 .log-logo
@@ -217,13 +213,13 @@ span
 /*Cart*/
 .nav-cart
 {
-    height: 50px;
-    width: 85px;
+    height: 3.2552083333333335vw;
+    width: 5.533854166666667vw;
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.1rem; 
+    font-size: 1.3vw; 
     font-weight: 700;
 }
 .cart
@@ -233,14 +229,14 @@ span
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 40px;
-    width: 35px;
+    height: 2.6041666666666665vw;
+    width: 2.2786458333333335vw;
 
 }   
 
 .cart i
 {
-    font-size: 1.7rem;
+    font-size: 1.9vw;
 }
 
 /* Navbar Ends */
@@ -251,7 +247,8 @@ span
 {
     background-color: #222f3f;
     color: white;
-    height: 40px;
+    height: 2.6041666666666665vw;
+    width: 99.28vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -282,31 +279,32 @@ span
 }
 .all i
 {
-    font-size: 1.15rem;
+    font-size: 1.35vw;
 }
 
 .panel1, .panel2, .panel3, .panel4, .panel5
 {
     margin: 0 10px;
-    font-size: 1rem;
+    font-size: 1.2vw;
     color: white;
 }
 
 /* Header Ends */
 
-/* Content or Body */
+/* Hero */
 
 
 .hero {
-    height: 500px;
+    height: 33.2552083333333335vw;
     
 }
 .hero-img
 {
+    position: relative;
     background: url("./Media/hero_image.jpg") no-repeat ;
     background-size: cover;
-    width: 100%;
-    height: 500px;
+    width: 100vw;
+    height: 22.786458333333332vw;
     z-index: -1;
 }
 
@@ -315,30 +313,63 @@ span
     z-index: -1;
 }
 
-.leftArrow
-{
-    height: 250px;
-    width: 80px;
-    position: relative;
-    z-index: 10;
-}
-
-.h-text
+/* .leftArrow
 {
     color: black;
-    width: 900px;
+     
+    position: absolute;
+    z-index: 10;
+    top: 200px;
+    left: 10px;
+} */
+
+.h-text 
+{
+    color: black;
+    width: 97.65625vw;
     background-color: #ffffff;
     position: absolute;
-    top: 400px;
+    top: 25vw;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    display: flex;
     text-align: center;
     justify-content: center;
+    /* border-radius: 4px; */
 }
+
 .hero-text
 {
-    font-size: 0.85rem;
+    font-size:  1vw;
 }
 
 .hero-link
 {
-    font-size: 1rem;
+    font-size: 1.2vw;
 }
+
+/* Hero Ends */
+
+/* Shop */
+
+.shop
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3, .box4, .box5
+{
+    height: 6.510416666666667vw;
+    width: 25vw;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Shop Ends */
+
