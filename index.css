@@ -121,7 +121,7 @@
     font-size: 1.2vw;
     font-weight: 500;
     height: 2.6041666666666665vw;
-    width: 30.924479166666668vw;
+    width: 36.924479166666668vw;
 }
 
 .search-icon
@@ -175,7 +175,7 @@
     margin: 0 10px 0 4px;
 }
 
-/* Sign in (&&) Retuen & Orders*/
+/* Sign in (&&) Return & Orders*/
 
 .nav-sign
 {
@@ -193,14 +193,25 @@
     flex-direction: column;
 }
 
-span
+.nav-returns
 {
+    height: 3.255vw;
+    width: 5.5338vw;
+    margin: 0.4vw 0 0 0;
+}
+
+
+.return
+{
+    height: 1vw;
+    width: 3vw;
     font-weight: lighter;
     font-size: 1vw;
 }
 
 .dn
 {
+    width: 100%;
     font-size: 1.2vw;
     font-weight: 700;
 }
@@ -214,8 +225,7 @@ span
 .nav-cart
 {
     height: 3.2552083333333335vw;
-    width: 5.533854166666667vw;
-    
+    width: 5.5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,8 +305,8 @@ span
 
 
 .hero {
-    height: 33.2552083333333335vw;
-    
+    height: 23.2552083333333335vw;
+    /* overflow: hidden; */
 }
 .hero-img
 {
@@ -304,7 +314,7 @@ span
     background: url("./Media/hero_image.jpg") no-repeat ;
     background-size: cover;
     width: 100vw;
-    height: 22.786458333333332vw;
+    height: 35vw;
     z-index: -1;
 }
 
@@ -354,22 +364,44 @@ span
 
 .shop
 {
+    background-color: #fff;
+    position: absolute;
+    z-index: 15;
+    top: 50vh;
+    left: 50%;
+    translate: -50%;
+    height: 651.302vh;
+    width: 95.75vw;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 10px;
-    display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
+    margin: 0.694vw 0.4vw;
+    /* border: #0055ff 1px solid; */
 }
 
-.box1, .box2, .box3, .box4, .box5
+.box
 {
-    height: 6.510416666666667vw;
-    width: 25vw;
-    border: 2px solid black;
-    text-align: center;
+    width: 20.833vw;    
+    height: 52.083vh;
+    /* border: black 1px dotted; */
+    margin: 0.5vw;
+    padding: 0.5vw 1vw;
 }
 
+.shop-text
+{
+    padding: 0  0.2vh;
+    font-weight: 900;
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+.media-1
+{
+    padding: 1vw 0.2vw 0 0 ;
+    height: 20vh;
+    width: 18vw;
+    background-size:cover ;
+}
 /* Shop Ends */
 
