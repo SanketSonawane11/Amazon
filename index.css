@@ -364,18 +364,17 @@
 
 .shop
 {
-    background-color: #fff;
     position: absolute;
     z-index: 15;
     top: 30vw;
     left: 50%;
     translate: -50%;
-    height: 651.302vh;
+    height: 100vh;
     width: 95.75vw;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 0.694vw 0.4vw;
+    margin: 0.1vw 0.4vw;
     /* border: #0055ff 1px solid; */
 }
 
@@ -386,7 +385,9 @@
     /* border: black 1px dotted; */
     margin: 0.5vw;
     padding: 0.5vw 1vw;
+    background-color: #fff;
 }
+
 
 .shop-text
 {
@@ -398,10 +399,97 @@
 
 .media-1
 {
-    padding: 1vw 0.2vw 0 0 ;
+    padding: 1vw 0.2vw 0 1.4vw;
     height: 20vh;
     width: 18vw;
-    background-size:cover ;
+    background-size: cover;
+}
+
+.discription
+{
+    padding: 0 0.2vw 0 1.4vw;
 }
 /* Shop Ends */
 
+/* Footer */
+
+.footer-main
+{
+    position: relative;
+    top: 100vh;
+    width: 100vw;
+    height: 40vw;
+    background-color: #232e3f;
+    color: #fff;
+    z-index: 1;
+    margin: 1vw 0 0 0;
+
+}
+
+.top-linker
+{
+    top: 0;
+    z-index: 2;
+    background-color: #37475a;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1vw;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-linker:hover
+{
+    background-color: rgb(79, 83, 110, 0.5);
+}
+
+.footer-content
+{
+    width: 100vw;
+    height: 26vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 4vw 0;
+}
+
+.f-links
+{
+    margin: 5% 12.5%;
+    width: 75%;
+    height: 90%;
+    text-align: left !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.know-list, .money-list, .payment-list, .help-list
+{
+    list-style-type: none;
+}
+
+.links-footer
+{
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.copyright
+{
+    text-align: center;
+    display: flex;
+    height: 5vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #232e3f;
+    border: #cccccc 3px outset;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 90%;
+}
+/* Footer Ends */
