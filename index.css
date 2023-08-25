@@ -193,27 +193,29 @@
     flex-direction: column;
 }
 
-.nav-returns
+.nav-returns 
 {
     height: 3.255vw;
     width: 5.5338vw;
-    margin: 0.4vw 0 0 0;
+    margin: 0 0 0 0;
 }
 
 
 .return
 {
     height: 1vw;
-    width: 3vw;
+    width: 5vw;
     font-weight: lighter;
     font-size: 1vw;
 }
 
 .dn
 {
+    height: 1.2vw;
     width: 100%;
     font-size: 1.2vw;
     font-weight: 700;
+    display: inline-block;
 }
 .log-logo
 {
