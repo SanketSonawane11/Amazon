@@ -29,7 +29,7 @@
 .navbar
 {
     height: 3.90625vw;
-    width: 100vw;
+    width: 100%;
     background-color: #181c24;
     color: white;
     display: flex;
@@ -48,15 +48,15 @@
 .nav-address
 {
     height: 3.2552083333333335vw;
-    width: 5.774088541666667vw;
-    padding-left:  0.3255208333333333vw;
+    width: 5.2;
+    /* padding-left:  0.3255208333333333vw; */
     margin: 0.13020833333333334vw;
 }
 
 .location-icon
 {
     height: 2.256020942408377vh;
-    width: 1.171875vw;
+    width: 1;
     display: flex;
     align-items: center;
 }
@@ -66,8 +66,8 @@
     height: 1.171875vw;
     font-size: 1vw;
     color: #cccccc;
-    margin-left: 16.8px;
-    padding-top: 5px;
+    margin: 0 1vw 0 0;
+    padding: 5px 0;
 }
 #india
 {
@@ -193,6 +193,12 @@
     flex-direction: column;
 }
 
+.sign-return
+{
+    height: 1.1vw;
+    font-size: 1vw;
+}
+
 .nav-returns 
 {
     height: 3.255vw;
@@ -203,17 +209,18 @@
 
 .return
 {
-    height: 1vw;
+    height: 0.8vw;
     width: 5vw;
     font-weight: lighter;
     font-size: 1vw;
+    margin: 0.2vw 0 0 0 ;
 }
 
 .dn
 {
-    height: 1.2vw;
+    height: 1.1vw;
     width: 100%;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: 700;
     display: inline-block;
 }
@@ -260,7 +267,7 @@
     background-color: #222f3f;
     color: white;
     height: 2.6041666666666665vw;
-    width: 99.28vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -382,16 +389,24 @@
 .box
 {
     width: 20.833vw;    
+    height: fit-content;
+    margin: 0.5vw;
+    padding: 0.5vw 1vw;
+    background-color: #fff; 
+}
+
+.signin-prime
+{
+    width: 20.833vw;    
     height: 52.083vh;
     margin: 0.5vw;
     padding: 0.5vw 1vw;
-    background-color: #fff;
 }
 
 .box4
 {
     width: 20.833vw;    
-    height: 22.083vh;
+    height: 20.083vh;
     margin: 0.5vw;
     padding: 0.5vw 1vw;
     background-color: #fff;
@@ -421,9 +436,9 @@
 
 .media-1
 {
-    padding: 1vw 0.2vw 0 1.4vw;
-    height: 20vh;
-    width: 18vw;
+    padding: 1vw 0.2vw 0 2.2vw;
+    height: 25vh;
+    width: 15vw;
     background-size: cover;
 }
 
@@ -465,6 +480,22 @@
 .loginb:hover
 {
     background:#ffcc3a; 
+}
+
+.prime 
+{
+    height: 19vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prime-banner
+{
+    height: 18vw;
+    width: auto;
 }
 /* Shop Ends */
 
